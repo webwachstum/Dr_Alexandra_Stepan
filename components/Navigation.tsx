@@ -52,7 +52,7 @@ export const Navigation = () => {
               className="flex items-center gap-2 px-4 py-2 bg-sage-500 text-white rounded-md hover:bg-sage-600 transition-colors shadow-sm text-sm font-medium"
             >
               <Phone size={16} />
-              <span>Notfall: 144</span>
+              <span>0676 / 887 06 51 10</span>
             </a>
           </div>
 
