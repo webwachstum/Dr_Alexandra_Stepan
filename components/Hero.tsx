@@ -42,12 +42,12 @@ export const Hero = () => {
           </div>
           
           <div className="relative lg:h-[600px] hidden lg:block fade-in" style={{animationDelay: '0.2s'}}>
-             {/* Abstract visual representation instead of generic stock photo */}
-             <div className="absolute inset-0 bg-gradient-to-tr from-sage-100 to-transparent rounded-[2rem] transform rotate-3"></div>
+             {/* Updated image to the provided waiting room image */}
+             <div className="absolute inset-0 bg-sage-50 rounded-[2rem] transform rotate-3"></div>
              <img 
-               src="https://picsum.photos/800/1000?grayscale" 
-               alt="Beruhigende Natur-Detailaufnahme" 
-               className="relative w-full h-full object-cover rounded-[2rem] shadow-2xl grayscale-[20%] sepia-[10%]"
+               src="https://images.unsplash.com/photo-1596162955779-9c8f7b43f290?q=80&w=2070&auto=format&fit=crop" 
+               alt="Einladende Atmosphäre der Ordination mit stilvollen Ledersesseln und Pflanzen" 
+               className="relative w-full h-full object-cover rounded-[2rem] shadow-2xl"
              />
           </div>
         </div>
